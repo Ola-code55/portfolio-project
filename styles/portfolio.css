@@ -1,0 +1,23 @@
+/*font-family: 'Berkshire Swash',
+cursive;
+font-family: 'Libre Caslon Text',
+serif;
+font-family: 'Pacifico',
+cursive;
+font-family: 'Roboto',
+sans-serif; */
+
+body{
+    background: rgb(250, 221, 225);
+}
+h1{
+    color: black;
+font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+}
+p{
+font-family:sans-serif;
+        font-weight: normal;
+}
+            
