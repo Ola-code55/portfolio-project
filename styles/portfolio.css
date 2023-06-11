@@ -1,23 +1,66 @@
-/*font-family: 'Berkshire Swash',
-cursive;
-font-family: 'Libre Caslon Text',
-serif;
-font-family: 'Pacifico',
-cursive;
-font-family: 'Roboto',
-sans-serif; */
-
-body{
-    background: rgb(250, 221, 225);
+h1,h2,h3,h4,h5,h6{
+    color:black
 }
-h1{
-    color: black;
-font-family: 'Roboto',
-        sans-serif;
-        font-weight: bold;
-}
-p{
-font-family:sans-serif;
-        font-weight: normal;
-}
+h1 {
+             color: #f8a3c8;
+             font-family: 'Roboto',
+                 sans-serif;
+             font-weight: bold;
+            font-size: 48px;
             
+         
+    }
+       
+    h2 {
+        font-family: 'Roboto',
+        sans-serif;
+     font-weight: normal;
+    
+            }
+        
+    p{
+    color:#f8a3c8;
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: bold;
+    margin: 0;
+          }
+    
+    .hero {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/cutie.jpg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        padding: 0px 20px;
+    } 
+.hero p{
+    font-size: 28px;
+    font-weight: bold;
+   
+}
+
+.hero h2{
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+  
+}
+.btn-branding{
+    font-family: 'Montserrat',
+            sans-serif;
+    font-weight: bold;
+    background: #ffffff;
+    border-radius: 50px;
+    color: #d95890;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 20px;
+}
+ 
