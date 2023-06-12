@@ -63,4 +63,16 @@ h1 {
     line-height: 17px;
     padding: 12px 20px;
 }
+ .image-container {
+     margin-bottom: 20px;
+     margin-top: 15px;
+ }
+
+ .image-container img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+     border-radius: 5px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
  
