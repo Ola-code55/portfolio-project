@@ -1,13 +1,18 @@
-h1,h2,h3,h4,h5,h6{
-    color:black
+body {
+   font-family: 'Roboto',
+    sans-serif;
+
 }
+h1,h2,p,a{
+font-family: 'Roboto',
+        sans-serif;
+}
+
 h1 {
-             color: #f8a3c8;
+          
              font-family: 'Roboto',
                  sans-serif;
              font-weight: bold;
-            font-size: 48px;
-            
          
     }
        
@@ -19,15 +24,15 @@ h1 {
             }
         
     p{
-    color:#f8a3c8;
+   
     font-family: 'Roboto',
     sans-serif;
     font-weight: bold;
-    margin: 0;
+   
           }
     
     .hero {
-        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/cutie.jpg");
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/cutie.jpg");
         height: 500px;
         background-size: cover;
         background-position: center;
@@ -37,13 +42,19 @@ h1 {
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
         padding: 0px 20px;
     } 
+
 .hero p{
+    color: #f8a3c8;
     font-size: 28px;
-    font-weight: bold;
-   
+    font-weight: 700;
+   margin: 0;
+}
+.hero h1{
+    color: #f8a3c8;
+    font-size: 48px;
 }
 
 .hero h2{
@@ -56,7 +67,7 @@ h1 {
     font-family: 'Montserrat',
             sans-serif;
     font-weight: bold;
-    background: #ffffff;
+    background: #cae6f8;
     border-radius: 50px;
     color: #d95890;
     font-size: 14px;
@@ -64,8 +75,8 @@ h1 {
     padding: 12px 20px;
 }
  .image-container {
-     margin-bottom: 20px;
-     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-top: 10px;
  }
 
  .image-container img {
@@ -75,4 +86,54 @@ h1 {
      border-radius: 5px;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  }
- 
+.about-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.about-section .row {
+    align-items: center;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.about-section h2 {
+    color: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.about-section h1 {
+    color: #f65282;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.about-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-section .btn-branding {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #cae6f8;
+    border-radius: 50px;
+    color: #d95890;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
