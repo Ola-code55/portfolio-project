@@ -142,13 +142,31 @@ h1 {
   body{
     background-color: #171616;
   }
-      h1{
+     .gallery-page-content h1{
         color: #ffffff;
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 72px;
         line-height: 84px;
         text-align: center;
+        text-transform: uppercase;
+}
+    .contact-page h1{
+    color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+   
+    
+        
+
+  
 }
 
      
