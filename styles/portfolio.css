@@ -49,18 +49,70 @@ nav a:hover, nav li.active a {
    
 }
 
+ footer {
+     background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
 
-h1 {
-    font-weight: bold;
-}
+ footer .logo {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+ }
 
-h2 {
-    font-weight: normal;
-}
+ footer .social-links {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+     margin-bottom: 10px;
+ }
 
-p {
-    font-weight: bold;
-}
+ footer .social-links a {
+    color: var(--secondary-color);
+    margin: 0 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 150ms ease-in-out; 
+ }
+
+ footer .social-links a:hover {
+     color: #ffffff;
+     background: var(--primary-color);
+
+ }
+
+ footer p {
+     font-size: 12px;
+     color: white
+ }
+
+ @media (max-width: 768px) {
+     footer .logo {
+         width: 80px;
+     }
+
+     footer .social-links {
+         margin-bottom: 0;
+     }
+
+   
+ }
+
+ h1 {
+     font-weight: bold;
+ }
+
+ h2 {
+     font-weight: normal;
+ }
+
+ p {
+     font-weight: bold;
+ }
 
 .hero {
     background: linear-gradient(rgba(38, 38, 38, 0.5), rgba(38, 38, 38, 0.5)), url("/images/cutie.jpg");
@@ -216,4 +268,4 @@ p {
     
    }
 
-     
+  
