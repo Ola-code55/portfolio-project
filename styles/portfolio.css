@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #f8a3c8;
+    --primary-color: #f780b4;
     --secondary-color: #ffffff;
     --background-color: #171616;
     --accent-color: #cae6f8;
@@ -171,16 +171,18 @@ footer .open-sourced-link{
     line-height: 2;
 }
 
-.btn-branding {
+.hero .btn-branding{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    background: var(--branding-color);
-    border-radius: 50px;
-    color: var(--primary-color);
-    font-size: 14px;
-    line-height: 17px;
-    padding: 12px 20px;
+        font-weight: bold;
+        background: var(--accent-color);
+        border-radius: 50px;
+        color: var(--primary-color);
+        font-size: 16px;
+        line-height: 17px;
+        padding: 18px 20px;
+       
 }
+
 
 .image-container {
     margin-bottom: 15px;
